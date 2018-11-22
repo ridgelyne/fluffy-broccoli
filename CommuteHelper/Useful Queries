@@ -1,0 +1,9 @@
+select distinct(relationships_trip_data_id) from test3
+
+select * from test3 where relationships_trip_data_id='38066493-K-N'
+
+select * from test3 where relationships_trip_data_id='38066493-K-N' and (attributes_stop_sequence=170 or attributes_current_stop_sequence=170) order by message_time
+
+OR!!!!
+
+select * from test3 where relationships_trip_data_id='38066493-K-N' and relationships_stop_data_id='70093' order by message_time

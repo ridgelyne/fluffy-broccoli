@@ -1,0 +1,1 @@
+ssh -i 'C:\Users\Katie\Documents\MyKeyPair.pem' ec2-user@18.236.85.119

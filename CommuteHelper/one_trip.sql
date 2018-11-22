@@ -1,0 +1,1 @@
+﻿select message_time, attributes_arrival_time, attributes_departure_time, attributes_current_status, attributes_label, attributes_stop_sequence, attributes_updated_at, id, message_type, relationships_stop_data_id from test3 where relationships_trip_data_id='38066190-K-N' order by relationships_stop_data_id, message_time
